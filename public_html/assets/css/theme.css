@@ -1,0 +1,99 @@
+/* Text beautification */
+:root {
+  --layoutLabel: unset;
+  --layoutText: unset;
+  --layoutIcon: unset;
+  --NavbarColor: unset;
+  --SidebarColor: unset;
+  --SidebarFooterColor: unset;
+  --FooterColor: unset;
+}
+
+body {
+  background-color: #e1e1e4 !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* Brand Logo Color */
+.brand-logo {
+  color: yellowgreen;
+}
+
+.header-color {
+  background-color: var(--NavbarColor, #343a40) !important;
+}
+
+.sidebar-color {
+  background-color: var(--SidebarColor, #212529) !important;
+}
+
+.sidebar-footer-color {
+  background-color: var(--SidebarFooterColor, #343a40) !important;
+}
+
+.footer-color {
+  background-color: var(--FooterColor, #f8f9fa) !important;
+}
+
+.template-text-color {
+  background-color: #94c52f !important;
+}
+
+.tcolor-1 {
+  background-color: yellowgreen !important;
+  border-color: yellowgreen !important;
+}
+
+.tcolor-header {
+  color: cadetblue !important;
+}
+
+.tcolor-2 {
+  color: yellowgreen !important;
+}
+
+.tcolor-2:hover {
+  color: #94c52f !important;
+}
+
+.ttext-color-plus {
+  color: #f18a04 !important;
+}
+
+.tcolor-1:hover {
+  background-color: #94c52f !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+  color: var(--layoutLabel);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+  color: var(--layoutText);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+  color: var(--layoutIcon);
+}
+
+.sb-topnav.navbar-dark #sidebarToggle {
+  color: var(--layoutLabel, rgba(255, 255, 255, 0.5));
+}
+
+.sb-sidenav-dark .sb-sidenav-footer {
+  color: var(--layoutText);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--layoutLabel, rgba(255, 255, 255, 0.5));
+}
+
+.btn:focus,
+.btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}

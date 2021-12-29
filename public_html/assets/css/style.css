@@ -1,0 +1,220 @@
+.form-wrapper {
+  min-width: fit-content;
+  top: 70px;
+}
+
+.width-100 {
+  width: 100px;
+}
+
+.requiredFieldError {
+  border: 1px solid red !important;
+}
+
+.full-height {
+  /* height: -webkit-fill-available !important; */
+  height: 100% !important;
+  height: -moz-available !important; /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available !important; /* Mozilla-based browsers will ignore this. */
+  height: fill-available !important;
+  height: 730px !important;
+}
+
+.min-width-fit-content {
+  min-width: fit-content !important;
+}
+
+.max-width-register {
+  max-width: 530px !important;
+}
+
+.dropdown-menu.show {
+  width: 100% !important;
+}
+
+.forcustomTable th:not(:first-child):not(:last-child):not(:nth-child(1)) {
+  min-width: 115px !important;
+}
+
+.forcustomTable th:nth-child(1) {
+  min-width: 280px !important;
+}
+
+.table-responsive {
+  max-height: 450px !important;
+}
+
+body {
+  counter-reset: Serial; /* Set the Serial counter to 0 */
+}
+
+table {
+  border-collapse: separate;
+}
+
+.table-responsive2 {
+  border-collapse: separate !important;
+}
+
+.addsequence tr td:first-child:before {
+  counter-increment: Serial; /* Increment the Serial counter */
+  content: "" counter(Serial); /* Display the counter */
+}
+
+.dataTables_scrollHeadInner {
+  width: 100% !important;
+}
+.dataTables_scrollHeadInner table {
+  width: 100% !important;
+}
+
+.dataTables_scrollHeadInner,
+.table {
+  width: 100% !important;
+}
+
+.dataTables_scrollBody {
+  height: fit-content !important;
+}
+
+.dataTables_scrollFootInner,
+.table {
+  width: 100% !important;
+}
+
+.card-height {
+  height: 290px !important;
+}
+
+.font-small {
+  font-size: 10px !important;
+}
+
+.font-medium {
+  font-size: 12px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+table#Table tbody tr:nth-child(even):hover td {
+  background-color: rgb(241, 221, 221) !important;
+}
+
+table#Table tbody tr:nth-child(odd):hover td {
+  background-color: rgb(241, 221, 221) !important;
+}
+
+.customBtnClass {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.buttonsToHide {
+  display: none !important;
+}
+
+.customClostButton {
+  position: absolute;
+  right: 17px;
+}
+
+.form-wrapper-home {
+  border-radius: 7px;
+}
+
+.form-wrapper-invoice {
+  border-radius: 7px;
+  top: 70px;
+}
+.loginform {
+  max-width: 800px;
+  min-width: 290px !important;
+}
+
+.register {
+  max-width: 516px !important;
+}
+/*
+.form-wrapper label{
+/*  font-weight: bold;
+}*/
+
+.errors li {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+.errors ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .form-wrapper .text-right {
+    text-align: center !important;
+  }
+
+  .loginform {
+    margin-top: 8%;
+  }
+
+  .form-wrapper {
+    top: 0px !important;
+    margin-bottom: 60px !important;
+    min-width: fit-content;
+  }
+
+  .order-heading-right {
+    text-align: left !important;
+  }
+  .form-wrapper .btn-primary {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .table {
+    font-size: 10px !important;
+  }
+
+  .table .form-control {
+    font-size: 10px !important;
+  }
+
+  .forcustomTable th:not(:first-child):not(:last-child):not(:nth-child(1)) {
+    min-width: 115px !important;
+  }
+
+  .forcustomTable th:nth-child(1) {
+    min-width: 166px !important;
+  }
+
+  .font-mobile {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 450px) {
+  .width-100 {
+    width: unset;
+  }
+}
