@@ -47,7 +47,7 @@
     <?php if (session()->get('isLoggedIn')) { ?>
 
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark header-color">
-            <a class="navbar-brand" href="<?= base_url(); ?>/" style="color: yellowgreen;"><?= $config->siteName ?></a>
+            <a class="navbar-brand tcolor-2" href="<?= base_url(); ?>/"><?= $config->siteName ?></a>
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
